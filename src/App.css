@@ -1,0 +1,11 @@
+.container {
+  width: 1080px;
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 1080px) {
+  .container {
+    width: 100%;
+    min-width: 500px;
+  }
+}
